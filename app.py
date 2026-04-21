@@ -52,7 +52,7 @@ st.plotly_chart(horizontal_bar_chart)
 # Histogram: Distribution of Weekly Hours Worked
 histogram = px.histogram(df,
                     x='UHRSWORKT',
-                    title='Workplace Culture: Distribution of Weekly Hours Worked',
+                    title='Workplace Culture: Distribution of Weekly Hours Worked =)',
                     labels={'UHRSWORKT': 'Hours Worked Per Week', 'count': 'Number of Employees', 'y': 'Number of Employees'},
                     color_discrete_sequence=['#1f77b4'])
 histogram.update_layout(yaxis_title="Number of Employees")
